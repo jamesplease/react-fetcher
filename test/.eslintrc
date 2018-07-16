@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "../.eslintrc"
+  ],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "hangingPromise": true
+  }
+}
